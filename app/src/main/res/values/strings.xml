@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">The Movie DB</string>
+    <string name="offline_app">No network connections</string>
+    <string name="trending_movies_label">Trending Movies</string>
+    <string name="trending_tv_shows_label">Trending TV Shows</string>
+    <string name="rating">"(%1$s)"</string>
 </resources>

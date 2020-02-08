@@ -88,11 +88,11 @@ android {
 check.dependsOn ktlint
 
 dependencies {
-    // Android Jetpack
+    // Android
+    implementation 'com.google.android.material:material:1.1.0'
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
     implementation "androidx.core:core-ktx:$androidxCoreKtxVersion"
     implementation "androidx.recyclerview:recyclerview:$androidxRecyclerViewVersion"
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$androidxSwipeRefreshVersion"
     implementation "androidx.cardview:cardview:$androidxCardViewVersion"
     implementation "androidx.constraintlayout:constraintlayout:$androidxConstraintLayoutVersion"
     testImplementation "androidx.test:core:$androidxTestCoreVersion"
